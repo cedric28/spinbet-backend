@@ -45,11 +45,12 @@ Postman Collection Overview
 - Endpoint: POST /api/auth/login
 - Description: Logs in the user and retrieves a JWT token.
 - Body (JSON):
-
+```
 {
     "email": "ceds@gmail.com",
     "password": "passw0rd"
 }
+```
 
 - Authentication: Bearer token (from previous login response if needed).
 
@@ -58,13 +59,14 @@ Postman Collection Overview
 - Endpoint: POST /api/participation
 - Description: Creates a new participation entry.
 - Body (JSON):
-
+```
 {
     "firstName": "Sample2",
     "lastName": "Sample 2",
     "percentage": 5,
     "userId": 13
 }
+```
 
 - Authentication: Bearer token required.
 4. GET ALL PARTICIPATIONS
@@ -76,12 +78,14 @@ Postman Collection Overview
 - Endpoint: PUT /api/participation/{id}
 - Description: Updates a specific participation entry.
 - Body (JSON):
+```
 {
     "firstName": "Sample3",
     "lastName": "Sample 3",
     "percentage": 8,
     "userId": 13
 }
+```
 - Authentication: Bearer token required.
 
 6. DELETE PARTICIPATION
