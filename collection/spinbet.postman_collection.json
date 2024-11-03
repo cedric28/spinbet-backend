@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "522a4cc0-a6f3-422b-9a4f-18820ddd88d7",
+		"name": "spinbet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7329620"
+	},
+	"item": [
+		{
+			"name": "REGISTER",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"cedced\",\r\n    \"email\": \"ceds@gmail.com\",\r\n    \"password\": \"passw0rd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/auth/register"
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNTgwMCwiZXhwIjoxNzMwNjEyMjAwfQ.NN9enUrBtgvoK2SBl89WZ-mGMdNbzcsY1_2q_cdZbXg"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\":\"ceds@gmail.com\",\r\n\"password\":\"passw0rd\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE PARTICIPATIONS",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Sample2\",\r\n    \"lastName\": \"Sample 2\",\r\n    \"percentage\": 5,\r\n    \"userId\": 13\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/participation"
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL PARTICIPATIONS",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/participations"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE PARTICIPATION",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Sample3\",\r\n    \"lastName\": \"Sample 3\",\r\n    \"percentage\": 8,\r\n    \"userId\": 13\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/participation/3"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE PARTICIPATION",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/participation/3"
+			},
+			"response": []
+		},
+		{
+			"name": "GET PARTICIPATION",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/participation/3"
+			},
+			"response": []
+		}
+	]
+}
