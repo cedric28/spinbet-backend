@@ -33,11 +33,13 @@ Postman Collection Overview
 - Endpoint: POST /api/auth/register
 - Description: Registers a new user.
 - Body (JSON):
+```
 {
     "name": "cedced",
     "email": "ceds@gmail.com",
     "password": "passw0rd"
 }
+```
 
 2. LOGIN
 - Endpoint: POST /api/auth/login
