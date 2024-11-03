@@ -1,6 +1,6 @@
 import app, { connectToDatabase } from './app'; // Import the connectToDatabase function
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
     try {

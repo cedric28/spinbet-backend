@@ -8,6 +8,7 @@ import authRoutes from './routes/authRoutes';
 import participationRoutes from './routes/participationRoutes';
 import { PrismaClient } from '@prisma/client';
 import winston from 'winston';
+import cors from 'cors';
 
 const app = express();
 const prisma = new PrismaClient(); // Initialize Prisma Client
@@ -25,6 +26,10 @@ const logger = winston.createLogger({
 });
 
 // Middleware
+app.use(cors({
+    origin: ['http://localhost:3000'],
+    credentials: true
+}));
 app.use(express.json());
 app.use(helmet());
 app.use(compression());
