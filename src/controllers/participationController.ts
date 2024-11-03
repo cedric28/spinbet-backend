@@ -29,7 +29,7 @@ export const createParticipation = async (req: Request, res: Response): Promise<
 
 export const getParticipations = async (req: Request, res: Response) : Promise<any> => {
     try {
-        const { userId } = req.body;
+        const userId = parseInt(req.params.id,10);
         const participations = await participationService.getAllParticipations(userId);
         return res.send(participations);
     } catch (err) {

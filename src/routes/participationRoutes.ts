@@ -12,7 +12,7 @@ import { authMiddleware } from '../middlewares/authMiddleware';
 const router = Router();
 
 router.post('/', authMiddleware, createParticipation);
-router.get('/', authMiddleware, getParticipations);
+router.get('/user/:id', authMiddleware, getParticipations);
 router.get('/:id', authMiddleware, getParticipationById);
 router.put('/:id', authMiddleware, updateParticipation);
 router.delete('/:id', authMiddleware, deleteParticipation);
