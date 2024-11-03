@@ -4,26 +4,26 @@ Installation
 To install this project, you need to have Node.js and npm installed. Follow the steps below to set up the project:
 
 1. Clone the repository:
-git clone <https://github.com/cedric28/spinbet-backend.git>
-cd <project-name>
+- git clone <https://github.com/cedric28/spinbet-backend.git>
+- cd spinbet-backend
 
 2. Install dependencies:
-Run the following command to install the required libraries:
-npm install
+- Run the following command to install the required libraries:
+- npm install
 
 3. Set up environment variables:
 
-Create a .env file in the root of the project and add the necessary environment variables. For example:
+- Create a .env file in the root of the project and add the necessary environment variables. For example:
 
-DATABASE_URL=your_database_url
-JWT_PRIVATE_KEY=your_jwt_secret_key
+- DATABASE_URL=your_database_url
+- JWT_PRIVATE_KEY=your_jwt_secret_key
 
 Running the Project
-To start the project, use the following command:
+- To start the project, use the following command:
 
-npm run dev
+- npm run dev
 
-This will start the server in development mode using nodemon, which automatically restarts the server when changes are detected.
+- This will start the server in development mode using nodemon, which automatically restarts the server when changes are detected.
 
 
 Postman Collection Overview
