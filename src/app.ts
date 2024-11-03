@@ -26,13 +26,14 @@ const logger = winston.createLogger({
 });
 
 // Middleware
+app.use(helmet());
+app.use(compression());
 app.use(cors({
     origin: ['http://localhost:3000'],
     credentials: true
 }));
 app.use(express.json());
-app.use(helmet());
-app.use(compression());
+app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 // Routes

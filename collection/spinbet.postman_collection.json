@@ -23,7 +23,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/auth/register"
+				"url": "http://localhost:5000/api/auth/register"
 			},
 			"response": []
 		},
@@ -47,7 +47,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/auth/login"
+				"url": "http://localhost:5000/api/auth/login"
 			},
 			"response": []
 		},
@@ -71,22 +71,41 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/participation"
+				"url": "http://localhost:5000/api/participation"
 			},
 			"response": []
 		},
 		{
-			"name": "GET ALL PARTICIPATIONS",
+			"name": "GET ALL PARTICIPATIONS BY USER ID",
 			"request": {
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
 					}
 				},
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/api/participations"
+				"url": {
+					"raw": "http://localhost:5000/api/participation/user/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"participation",
+						"user",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -110,7 +129,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:3000/api/participation/3"
+				"url": "http://localhost:5000/api/participation/3"
 			},
 			"response": []
 		},
@@ -120,12 +139,12 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
 					}
 				},
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:3000/api/participation/3"
+				"url": "http://localhost:5000/api/participation/3"
 			},
 			"response": []
 		},
@@ -135,12 +154,12 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNjIwOSwiZXhwIjoxNzMwNjEyNjA5fQ.ssZDZ20QqHn-7I-8Kc6NQ34fDoykjj-xHP5rvvBZ2ZA"
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
 					}
 				},
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/api/participation/3"
+				"url": "http://localhost:5000/api/participation/3"
 			},
 			"response": []
 		}

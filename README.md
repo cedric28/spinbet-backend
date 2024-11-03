@@ -69,8 +69,8 @@ Postman Collection Overview
 ```
 
 - Authentication: Bearer token required.
-4. GET ALL PARTICIPATIONS
-- Endpoint: GET /api/participations
+4. GET ALL PARTICIPATIONS BY USER ID
+- Endpoint: GET /api/participation/user/{id}
 - Description: Retrieves all participation entries.
 - Authentication: Bearer token required.
 
@@ -101,7 +101,7 @@ Postman Collection Overview
 Notes
 - Replace {id} in the endpoints with the specific participation ID as needed.
 - Update any expired tokens in the request headers if required.
-- Ensure that the local server is running on localhost:3000 or modify the base URL accordingly.
+- Ensure that the local server is running on localhost:5000 or modify the base URL accordingly.
 
 
 Dependencies
