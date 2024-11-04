@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "nodemon src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "heroku-postbuild": "npm run build",
+    "db:migrate": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
