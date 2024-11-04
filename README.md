@@ -25,6 +25,8 @@ Running the Project
 
 - This will start the server in development mode using nodemon, which automatically restarts the server when changes are detected.
 
+PRODUCTION URL ENDPOINT
+- https://spinbet-backend-c481852c4a7d.herokuapp.com
 
 Postman Collection Overview
 - check the postman collection in the collection folder
