@@ -37,6 +37,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 // Routes
+app.get('/', (req, res) => {
+    res.send('Hello');
+  });
 app.use('/api/auth', authRoutes);          // Authentication routes
 app.use('/api/participation', participationRoutes); // Participation routes
 
