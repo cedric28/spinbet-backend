@@ -48,8 +48,10 @@ export const connectToDatabase = async () => {
     try {
         await prisma.$connect();
         logger.info('Database connected successfully.');
+        console.log(`Database connected successfully.`);
     } catch (error) {
         logger.error('Database connection failed:', error);
+        console.log(`Database error: ${error}`);
         throw error; // Throw error to be caught in server.ts
     }
 };
