@@ -65,3 +65,336 @@ Unique constraint failed on the fields: (`email`)
 2024-11-02 22:58:37 [[31MERROR[39M]: Registration error: Email already exists
 2024-11-02 23:02:17 [[31MERROR[39M]: Registration error: Email already exists
 2024-11-02 23:04:48 [[31MERROR[39M]: Registration error: Email already exists
+2024-11-04 01:19:52 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 01:20:12 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:20:16 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:20:21 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:21:43 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:26:25 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:27:37 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:27:39 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:11:30 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:11:30 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:11:30 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:11:30 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:14:00 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:14:00 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:14:00 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:14:00 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:00 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:16:00 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:16:00 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:00 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:52 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:16:52 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:16:53 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:53 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:25:38 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:25:38 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:29:20 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:29:20 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:30:31 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:30:31 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:31:31 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:31:37 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:31:59 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:33:21 [[31MERROR[39M]: Create Participation error: 
+Invalid `prisma.participation.create()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:7:37
+
+  4 
+  5 export class ParticipationService {
+  6     async createParticipation(data: { firstName: string; lastName: string; percentage: number; userId: number }) {
+→ 7         return prisma.participation.create(
+Foreign key constraint violated: `Participation_userId_fkey (index)`
+2024-11-04 11:41:43 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:41:55 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:53:58 [[31MERROR[39M]: Get Participations error: 
+Invalid `prisma.participation.findMany()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:11:37
+
+   8 }
+   9 
+  10 async getAllParticipationsByUserId(userId: number) {
+→ 11     return prisma.participation.findMany({
+           where: {
+         +   userId: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[] | ListIntFieldRefInput,
+         +     notIn: Int[] | ListIntFieldRefInput,
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           },
+           orderBy: {
+             percentage: "desc"
+           }
+         })
+
+Argument `userId` is missing.
+2024-11-04 11:57:14 [[31MERROR[39M]: Create Participation error: 
+Invalid `prisma.participation.create()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:7:37
+
+  4 
+  5 export class ParticipationService {
+  6     async createParticipation(data: { firstName: string; lastName: string; percentage: number; userId: number }) {
+→ 7         return prisma.participation.create(
+Foreign key constraint violated: `Participation_userId_fkey (index)`
+2024-11-04 12:03:16 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:03:18 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:03:20 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:50:02 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:50:02 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 12:52:21 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:52:21 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 12:52:38 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:52:38 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 13:01:40 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 13:01:40 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 13:01:50 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 13:01:50 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login

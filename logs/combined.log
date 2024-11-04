@@ -130,3 +130,635 @@ Unique constraint failed on the fields: (`email`)
 2024-11-02 23:19:19 [[32MINFO[39M]: Incoming request: GET /api/participation
 2024-11-02 23:19:37 [[32MINFO[39M]: Incoming request: GET /api/participation/3
 2024-11-02 23:19:41 [[32MINFO[39M]: Incoming request: DELETE /api/participation/3
+2024-11-04 00:44:20 [[32MINFO[39M]: Incoming request: OPTIONS /api/auth/register
+2024-11-04 00:47:02 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 00:47:02 [[32MINFO[39M]: User registered with email: dek@gmail.com
+2024-11-04 00:57:34 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 00:57:34 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 00:59:02 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 00:59:02 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 01:11:40 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:11:40 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 01:18:40 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:18:40 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 01:19:52 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:19:52 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 01:20:11 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:20:12 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 01:20:48 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:20:48 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 01:33:31 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 01:33:31 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 02:11:16 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 02:47:30 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 02:47:30 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 02:57:52 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 02:57:52 [[32MINFO[39M]: User registered with email: asdasd@gmail.com
+2024-11-04 02:58:00 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 02:58:00 [[32MINFO[39M]: User logged in with email: dek@gmail.com
+2024-11-04 02:58:06 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:02:22 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:04:17 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:05:38 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:09:10 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:10:06 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:13:28 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:18:02 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:18:02 [[32MINFO[39M]: Participation created with ID: 5
+2024-11-04 03:18:35 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:18:35 [[32MINFO[39M]: Participation created with ID: 6
+2024-11-04 03:21:10 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:21:10 [[32MINFO[39M]: Participation created with ID: 7
+2024-11-04 03:27:34 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:34 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:34 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:34 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:43 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:43 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:45 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:45 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:55 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:27:55 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:28:03 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:28:03 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:29:18 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:29:33 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:29:40 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 03:38:22 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:39:14 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:41:34 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:41:38 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:43:49 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:44:04 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:44:11 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:44:43 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:46:29 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:46:35 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:46:46 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:49:44 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:49:53 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:50:37 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:50:41 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:24 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:25 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:27 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:44 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:46 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:51:52 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:53:17 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:53:28 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:54:02 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:54:04 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:54:20 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:54:44 [[32MINFO[39M]: Incoming request: GET /api/participation/user/14
+2024-11-04 03:55:54 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 03:56:44 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 04:20:16 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:20:16 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:20:21 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:20:21 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:21:42 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:21:43 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:26:15 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:26:15 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 04:26:25 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:26:25 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:27:37 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:27:37 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 04:27:39 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 04:27:39 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:11:30 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:11:30 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:11:30 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:11:30 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:11:30 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:11:30 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:11:30 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:11:30 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:11:30 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:14:00 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:14:00 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:14:00 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:14:00 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:14:00 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:14:00 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:14:00 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:14:00 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:14:00 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:14:51 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:14:51 [[32MINFO[39M]: User registered with email: ceds@gmail.com
+2024-11-04 11:15:59 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:15:59 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:15:59 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:16:00 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:16:00 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:16:00 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:16:00 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:16:00 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:16:00 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:16:00 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:16:00 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:16:52 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:16:52 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:16:52 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:16:52 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:16:52 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:16:52 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:16:52 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:16:52 [[31MERROR[39M]: Unexpected error during participation creation
+2024-11-04 11:16:52 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/participation
+2024-11-04 11:16:53 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:53 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:16:53 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:16:53 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:16:53 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:16:53 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:16:53 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:22:31 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:22:31 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:22:31 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:22:31 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:22:31 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:22:31 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:22:31 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:22:31 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:23:21 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:23:21 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:23:22 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:23:22 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:23:22 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:23:22 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:23:22 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:25:38 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:25:38 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:25:38 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:25:38 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:25:38 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:25:38 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:25:38 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:29:19 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:29:19 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:29:19 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:29:19 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:29:19 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:29:19 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:29:19 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:29:20 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:29:20 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:29:20 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:29:20 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:29:20 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:29:20 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:29:20 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:30:30 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:30:30 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:30:30 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:30:30 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:30:30 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:30:30 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:30:30 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:30:30 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:30:30 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:30:31 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:30:31 [[32MINFO[39M]: Incoming request: PUT /api/participation/undefined
+2024-11-04 11:30:31 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update({
+           where: {
+         +   id: Int
+           },
+           data: {
+             firstName: "John",
+             lastName: "Smith",
+             percentage: 30
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:30:31 [[32MINFO[39M]: Incoming request: DELETE /api/participation/undefined
+2024-11-04 11:30:31 [[31MERROR[39M]: Delete Participation error: 
+Invalid `prisma.participation.delete()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:28:43
+
+  25 }
+  26 
+  27 async deleteParticipation(id: string) {
+→ 28     return prisma.participation.delete({
+           where: {
+         +   id: Int
+           }
+         })
+
+Argument `id` is missing.
+2024-11-04 11:31:31 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:31:31 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:31:37 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:31:37 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:31:59 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:31:59 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:32:06 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:32:06 [[32MINFO[39M]: User registered with email: ceds@gmail.com
+2024-11-04 11:32:09 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:32:09 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 11:32:23 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:33:21 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:33:21 [[31MERROR[39M]: Create Participation error: 
+Invalid `prisma.participation.create()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:7:37
+
+  4 
+  5 export class ParticipationService {
+  6     async createParticipation(data: { firstName: string; lastName: string; percentage: number; userId: number }) {
+→ 7         return prisma.participation.create(
+Foreign key constraint violated: `Participation_userId_fkey (index)`
+2024-11-04 11:33:55 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:33:55 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 11:34:22 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:34:22 [[32MINFO[39M]: Participation created with ID: 9
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:34:39 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:34:39 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:34:39 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:34:39 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:34:39 [[32MINFO[39M]: Participation created with ID: 10
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: PUT /api/participation/10
+2024-11-04 11:34:39 [[32MINFO[39M]: Incoming request: DELETE /api/participation/10
+2024-11-04 11:40:04 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:40:04 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:40:04 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:40:04 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:40:05 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:40:05 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:40:05 [[32MINFO[39M]: Participation created with ID: 11
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: PUT /api/participation/11
+2024-11-04 11:40:05 [[32MINFO[39M]: Incoming request: DELETE /api/participation/11
+2024-11-04 11:41:42 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:41:43 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:41:55 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:41:55 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 11:42:13 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:42:13 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:42:22 [[32MINFO[39M]: Incoming request: GET /api/participation
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:53:58 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:53:58 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:53:58 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:53:58 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:53:58 [[32MINFO[39M]: Participation created with ID: 12
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: GET /api/participation/user/$%7BuserId%7D
+2024-11-04 11:53:58 [[31MERROR[39M]: Get Participations error: 
+Invalid `prisma.participation.findMany()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:11:37
+
+   8 }
+   9 
+  10 async getAllParticipationsByUserId(userId: number) {
+→ 11     return prisma.participation.findMany({
+           where: {
+         +   userId: {
+         +     equals: Int | IntFieldRefInput,
+         +     in: Int[] | ListIntFieldRefInput,
+         +     notIn: Int[] | ListIntFieldRefInput,
+         +     lt: Int | IntFieldRefInput,
+         +     lte: Int | IntFieldRefInput,
+         +     gt: Int | IntFieldRefInput,
+         +     gte: Int | IntFieldRefInput,
+         +     not: Int | NestedIntFilter
+         +   }
+           },
+           orderBy: {
+             percentage: "desc"
+           }
+         })
+
+Argument `userId` is missing.
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: PUT /api/participation/12
+2024-11-04 11:53:58 [[32MINFO[39M]: Incoming request: DELETE /api/participation/12
+2024-11-04 11:56:11 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:56:11 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:56:11 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:56:11 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:56:11 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:56:11 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:56:11 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:56:12 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:56:12 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:56:12 [[32MINFO[39M]: Participation created with ID: 13
+2024-11-04 11:56:12 [[32MINFO[39M]: Incoming request: GET /api/participation/user/42
+2024-11-04 11:56:12 [[32MINFO[39M]: Incoming request: PUT /api/participation/13
+2024-11-04 11:56:12 [[32MINFO[39M]: Incoming request: DELETE /api/participation/13
+2024-11-04 11:57:14 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:57:14 [[31MERROR[39M]: Create Participation error: 
+Invalid `prisma.participation.create()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:7:37
+
+  4 
+  5 export class ParticipationService {
+  6     async createParticipation(data: { firstName: string; lastName: string; percentage: number; userId: number }) {
+→ 7         return prisma.participation.create(
+Foreign key constraint violated: `Participation_userId_fkey (index)`
+2024-11-04 11:58:15 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:58:15 [[32MINFO[39M]: Participation created with ID: 15
+2024-11-04 11:58:35 [[32MINFO[39M]: Incoming request: PUT /api/participation/15
+2024-11-04 11:59:37 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:59:37 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 11:59:38 [[32MINFO[39M]: User registered with email: jane@example.com
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:59:38 [[32MINFO[39M]: User registered with email: johnny@example.com
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 11:59:38 [[32MINFO[39M]: User logged in with email: jane@example.com
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 11:59:38 [[32MINFO[39M]: User logged in with email: johnny@example.com
+2024-11-04 11:59:38 [[32MINFO[39M]: Participation created with ID: 16
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: GET /api/participation/user/44
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: PUT /api/participation/16
+2024-11-04 11:59:38 [[32MINFO[39M]: Incoming request: DELETE /api/participation/16
+2024-11-04 12:03:16 [[32MINFO[39M]: Incoming request: PUT /api/participation/15
+2024-11-04 12:03:16 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:03:18 [[32MINFO[39M]: Incoming request: PUT /api/participation/15
+2024-11-04 12:03:18 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:03:20 [[32MINFO[39M]: Incoming request: PUT /api/participation/15
+2024-11-04 12:03:20 [[31MERROR[39M]: Update Participation error: 
+Invalid `prisma.participation.update()` invocation in
+C:\Users\Cedric\Desktop\spinbet-backendv2\src\services\participationService.ts:21:37
+
+  18 }
+  19 
+  20 async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+→ 21     return prisma.participation.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+2024-11-04 12:04:36 [[32MINFO[39M]: Incoming request: POST /api/auth/register
+2024-11-04 12:04:36 [[32MINFO[39M]: User registered with email: ceds@gmail.com
+2024-11-04 12:04:51 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 12:04:51 [[32MINFO[39M]: User logged in with email: ceds@gmail.com
+2024-11-04 12:05:05 [[32MINFO[39M]: Incoming request: POST /api/participation
+2024-11-04 12:05:05 [[32MINFO[39M]: Participation created with ID: 17
+2024-11-04 12:05:16 [[32MINFO[39M]: Incoming request: PUT /api/participation/17
+2024-11-04 12:50:02 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 12:50:02 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:50:02 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 12:52:21 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 12:52:21 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:52:21 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 12:52:38 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 12:52:38 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 12:52:38 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 13:01:40 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 13:01:40 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 13:01:40 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 13:01:50 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 13:01:50 [[31MERROR[39M]: Login error: Invalid credentials
+2024-11-04 13:01:50 [[31MERROR[39M]: Error: Cannot set headers after they are sent to the client - Route: /api/auth/login
+2024-11-04 13:06:36 [[32MINFO[39M]: Incoming request: POST /api/auth/login
+2024-11-04 13:06:55 [[32MINFO[39M]: Incoming request: POST /api/auth/login
