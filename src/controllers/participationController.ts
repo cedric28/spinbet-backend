@@ -92,6 +92,16 @@ export const updateParticipation = async (req: Request, res: Response): Promise<
         if(error) return res.status(400).send({ message: error.details[0].message });
 
         const { firstName, lastName, percentage,userId } = req.body;
+        // Get all participations for the user
+        const existingParticipations = await participationService.getAllParticipationsByUserId(userId);
+        const totalPercentage = existingParticipations.reduce((sum, participation) => sum + participation.percentage, 0);
+
+        // Validation: Check if the new total percentage equals 100
+        const newTotalPercentage = totalPercentage + percentage; // Add current percentage to the existing total
+        if (newTotalPercentage > 100) {
+            return res.status(400).send({ message: "Total percentage for all participations must equal 100." });
+        }
+
         const updatedParticipation = await participationService.updateParticipation(req.params.id, {
             firstName,
             lastName,
