@@ -17,7 +17,7 @@ export class ParticipationService {
         return await prisma.participation.findUnique({ where: { id: parseInt(id) } });
     }
 
-    async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number }) {
+    async updateParticipation(id: string, data: { firstName: string; lastName: string; percentage: number, userId: number }) {
         return await prisma.participation.update({
             where: { id: parseInt(id) },
             data,

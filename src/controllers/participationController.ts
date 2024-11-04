@@ -88,11 +88,15 @@ export const getParticipationById = async (req: Request, res: Response): Promise
 
 export const updateParticipation = async (req: Request, res: Response): Promise<any> => {
     try {
-        const { firstName, lastName, percentage } = req.body;
+        const { error } = validateParticipation(req.body);
+        if(error) return res.status(400).send({ message: error.details[0].message });
+
+        const { firstName, lastName, percentage,userId } = req.body;
         const updatedParticipation = await participationService.updateParticipation(req.params.id, {
             firstName,
             lastName,
             percentage,
+            userId
         });
         if (!updatedParticipation) {
             return res.status(404).send({ message:'Participation not found.'});
