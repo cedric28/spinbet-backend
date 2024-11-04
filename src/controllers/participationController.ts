@@ -8,7 +8,7 @@ const participationService = new ParticipationService();
 export const createParticipation = async (req: Request, res: Response): Promise<any> => {
     try {
         const { error } = validateParticipation(req.body);
-        if(error) res.status(400).send({ message: error.details[0].message });
+        if(error) return res.status(400).send({ message: error.details[0].message });
 
         const { firstName, lastName, percentage, userId } = req.body;
         const existingParticipations = await participationService.getAllParticipationsByUserId(userId);
@@ -49,7 +49,7 @@ export const getAllParticipationsByUserId = async (req: Request, res: Response) 
     try {
         const userId = parseInt(req.params.id,10);
         const participations = await participationService.getAllParticipationsByUserId(userId);
-        res.send({
+        return res.send({
             message: "Successfully retrived a participations",
             data: participations
         });
@@ -70,7 +70,11 @@ export const getParticipationById = async (req: Request, res: Response): Promise
         if (!participation) {
             return res.status(404).send({ message:'Participation not found.'}); // This line returns a response and does not need to return anything else.
         }
-        res.send(participation); // This also returns a response
+    
+        return res.send({
+            message: "Successfully retrived a participation",
+            data: participation
+        });
     } catch (err) {
         if (err instanceof Error) {
             logger.error(`Get Participation by ID error: ${err.message}`);

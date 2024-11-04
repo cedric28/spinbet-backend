@@ -31,16 +31,13 @@
 			"name": "LOGIN",
 			"request": {
 				"auth": {
-					"type": "bearer",
-					"bearer": {
-						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImNlZGNlZCIsImlhdCI6MTczMDUyNTgwMCwiZXhwIjoxNzMwNjEyMjAwfQ.NN9enUrBtgvoK2SBl89WZ-mGMdNbzcsY1_2q_cdZbXg"
-					}
+					"type": "noauth"
 				},
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"email\":\"ceds@gmail.com\",\r\n\"password\":\"passw0rd\" \r\n}",
+					"raw": "{\r\n\"email\":\"\",\r\n\"password\":\"passw0rd\" \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -77,6 +74,40 @@
 		},
 		{
 			"name": "GET ALL PARTICIPATIONS BY USER ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMDU2MDQ5MX0.Ub-IbFok9W6Hud__T7wvDmymtOfOem-mf_pf204YPlY"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/participation/user/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"participation",
+						"user",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL PARTICIPATIONS",
 			"request": {
 				"auth": {
 					"type": "bearer",
