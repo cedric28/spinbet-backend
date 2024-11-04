@@ -7,7 +7,7 @@ export class ParticipationService {
         return prisma.participation.create({ data });
     }
 
-    async getAllParticipations(userId: number) {
+    async getAllParticipationsByUserId(userId: number) {
         return prisma.participation.findMany({ where: { userId }, orderBy: {
             percentage: 'desc', // 'desc' for descending order
         } });

@@ -23,8 +23,9 @@ beforeAll(async () => {
         email: 'jane@example.com',
         password: 'password123',
     });
-    userId = result.body.id;
-    token = res.body.token;
+
+    userId = result.body.data.id;
+    token = res.body.data.token;
 });
 
 afterAll(async () => {
@@ -44,17 +45,19 @@ describe('Participation API', () => {
                 percentage: 20,
                 userId
             });
-        participationId = res.body.id;
-        expect(res.statusCode).toEqual(201);
-        expect(res.body).toHaveProperty('id');
+
+        console.log('hotdog',res.body)
+        participationId = res.body.data.id;
+        expect(res.status).toEqual(201);
+        expect(res.body.data).toHaveProperty('id');
     });
 
     it('should get all participations', async () => {
         const res = await request(app)
-            .get('/api/participation')
+            .get(`/api/participation/user/${userId}`)
             .set('Authorization', `Bearer ${token}`);
-        expect(res.statusCode).toEqual(200);
-        expect(res.body).toBeInstanceOf(Array);
+        expect(res.status).toEqual(200);
+        expect(res.body.data).toBeInstanceOf(Array);
     });
 
     it('should update a participation', async () => {
@@ -67,14 +70,14 @@ describe('Participation API', () => {
                 percentage: 30,
                 userId
             });
-        expect(res.statusCode).toEqual(200);
-        expect(res.body.percentage).toEqual(30);
+        expect(res.status).toEqual(200);
+        expect(res.body.data.percentage).toEqual(30);
     });
 
     it('should delete a participation', async () => {
         const res = await request(app)
             .delete(`/api/participation/${participationId}`)
             .set('Authorization', `Bearer ${token}`);
-        expect(res.statusCode).toEqual(204);
+        expect(res.status).toEqual(204);
     });
 });

@@ -25,8 +25,11 @@ describe('User Authentication', () => {
                 email: 'johnny@example.com',
                 password: 'password123'
             });
+
         expect(response.status).toBe(201);
-        expect(response.body).toHaveProperty('email', 'johnny@example.com');
+        expect(response.body).toHaveProperty('message', 'Successfully register user');
+        expect(response.body.data).toHaveProperty('email', 'johnny@example.com');
+        expect(response.body.data).toHaveProperty('name', 'Johnny Doe');
     });
 
     it('should get a valid token', async () => {
@@ -40,11 +43,11 @@ describe('User Authentication', () => {
         // Expect a successful response
         expect(response.status).toBe(200); // Change to 200 for login success
         
-        // Check if the response body contains the token
-        expect(response.body).toHaveProperty('token'); // Ensure the token is present
+        // // Check if the response body contains the token
+        expect(response.body.data).toHaveProperty('token'); // Ensure the token is present
         
         // Optionally, you can validate the structure of the token
-        const token = response.body.token;
+        const token = response.body.data.token;
         expect(typeof token).toBe('string'); // Token should be a string
         expect(token).not.toBe(''); // Token should not be empty
     });
