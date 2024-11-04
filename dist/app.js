@@ -45,6 +45,9 @@ app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use(requestLogger_1.requestLogger);
 // Routes
+app.get('/', (req, res) => {
+    res.send('Hello');
+});
 app.use('/api/auth', authRoutes_1.default); // Authentication routes
 app.use('/api/participation', participationRoutes_1.default); // Participation routes
 // Error Handling Middleware
@@ -54,9 +57,11 @@ const connectToDatabase = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield prisma.$connect();
         logger.info('Database connected successfully.');
+        console.log(`Database connected successfully.`);
     }
     catch (error) {
         logger.error('Database connection failed:', error);
+        console.log(`Database error: ${error}`);
         throw error; // Throw error to be caught in server.ts
     }
 });
