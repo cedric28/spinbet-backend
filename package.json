@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.ts",
-    "test": "jest",
-    "heroku-postbuild": "npm run build",
-    "db:migrate": "npx prisma migrate deploy"
+    "start": "node dist/server.js",
+    "postinstall": "npm run build",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
